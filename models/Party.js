@@ -1,6 +1,8 @@
 const mongoose = require("mongoose");
 
-const { serviceSchemaSchema } = require("./Service");
+const { Schema } = mongoose;
+
+const { serviceSchema } = require("./Service");
 
 const partySchema = new Schema(
   {
